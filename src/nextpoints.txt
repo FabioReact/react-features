@@ -1,0 +1,7 @@
+0. HOC
+1. Portals
+2. useCallback (after useMemo)
+3. useRef
+4. Error boundaries
+static getDerivedStateFromError(error)
+componentDidCatch(error, info) {

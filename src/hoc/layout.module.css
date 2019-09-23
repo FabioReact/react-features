@@ -1,0 +1,29 @@
+.layout {
+	display: flex;
+	flex-direction: row;
+}
+
+.layout nav {
+	width: 250px;
+	height: 100vh;
+	background-color: rgb(20, 20, 30);
+}
+
+.layout nav a {
+	color: #fafafa;
+}
+
+.layout nav li {
+	padding: 5px;
+}
+
+.layout main {
+	display: flex;
+	flex-grow: 1;
+
+}
+
+.layout main > :first-of-type {
+	flex-grow: 1;
+	text-align: center;
+}
